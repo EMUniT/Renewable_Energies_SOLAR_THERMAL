@@ -9,7 +9,7 @@ n=[15
     258
     288
     319
-    349];  % ordinal number of XV day of each month
+    349];  % Ordinal number of 15-th day of each month
 
 Month_day = [31
     28
@@ -22,7 +22,7 @@ Month_day = [31
     30
     31
     30
-    31]; % duration (in days) of each month
+    31]; % Duration (in days) of each month
 
 % Radiation data for Trento 
 
@@ -37,7 +37,7 @@ H= 3.6*[1.649
     4.313	
     2.812	
     1.653	
-    1.277]; % [MJ/m^2]  daily global irradiation 
+    1.277]; % Daily global irradiation [MJ/m^2] 
 
 D = 3.6*[0.713	
     1.039	
@@ -50,10 +50,10 @@ D = 3.6*[0.713
     1.707	
     1.236	
     0.818	
-    0.624]; % [MJ/m^2]  daily diffuse irradiation 
+    0.624]; % Daily diffuse irradiation [MJ/m^2] 
 
-Tmin=[4  3  5 8 12 16 18  18 15  12 7 5]';  % [°C] average monthly minimum temperature
-Tmax=[8   8  10 13    18  23  25  25  21  16   12 9]'; % [°C] average monthly maximum temperature
+Tmin=[4   3   5   8   12   16   18   18   15   12   7   5]';  % Average monthly minimum temperature [°C] 
+Tmax=[8   8   10  13  18   23   25   25   21   16   12  9]';  % Average monthly maximum temperature [°C] 
 
-% we will assume that maximum temperature during the day is reached at t=tmax 
+% Assume that maximum temperature during the day is reached at t=tmax 
 tmax = 14; 
