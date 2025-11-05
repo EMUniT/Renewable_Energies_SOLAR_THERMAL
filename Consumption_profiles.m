@@ -22,8 +22,8 @@ function [FR_consumption,TR_consumption,T_mains,Ta_sym,I_sym] = consumption_prof
         FR_consumption(20.5*60:20.5*60+6) = 6; % Dinner dishes washing: 6 [min] - 6 [l/min]
         TR_consumption(20.5*60:20.5*60+6) = 40;% Dinner dishes washing: 6 [min] - 40 [°C]
     
-        FR_consumption(22*60:22*60+15) = 15;   % Morning shower: 15 [min] - 15 [l/min]
-        TR_consumption(22*60:22*60+15) = 34;   % Morning shower: 15 [min] - 34 [°C]
+        FR_consumption(22*60:22*60+15) = 15;   % Evening shower: 15 [min] - 15 [l/min]
+        TR_consumption(22*60:22*60+15) = 34;   % Evening shower: 15 [min] - 34 [°C]
     
         I_sym = I_aug;
         Ta_sym = Ta_aug;
@@ -48,8 +48,8 @@ function [FR_consumption,TR_consumption,T_mains,Ta_sym,I_sym] = consumption_prof
         FR_consumption(19.5*60:19.5*60+6) = 6; % Dinner dishes washing: 6 [min] - 6 [l/min]
         TR_consumption(19.5*60:19.5*60+6) = 40;% Dinner dishes washing: 6 [min] - 40 [°C]
     
-        FR_consumption(21*60:21*60+15) = 15;   % Morning shower: 15 [min] - 15 [l/min]
-        TR_consumption(21*60:21*60+15) = 42;   % Morning shower: 15 [min] - 42 [°C]
+        FR_consumption(21*60:21*60+15) = 15;   % Evening shower: 15 [min] - 15 [l/min]
+        TR_consumption(21*60:21*60+15) = 42;   % Evening shower: 15 [min] - 42 [°C]
     
         I_sym = I_feb;
         Ta_sym = Ta_feb;
